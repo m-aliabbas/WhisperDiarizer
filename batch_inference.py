@@ -15,7 +15,6 @@ if __name__ == "__main__":
     prompt = "And this is a conversation between Seller and Customer. Seller is selling insurance or something like that. There can be more than one sellers in conversation."
     model = DiarizationPipeline(prompt=prompt,out_model=ConversationList)
     
-    first50_files = file_names[:50]
-    for file_name in first50_files:
+    for file_name in file_names:
         results = model.forward(file_name)
     
