@@ -1,0 +1,6 @@
+llm_diarization_pipeline/.env
+*.mp3
+*.wav
+input_audios/
+input_audios/Output-AM
+*.pyc
